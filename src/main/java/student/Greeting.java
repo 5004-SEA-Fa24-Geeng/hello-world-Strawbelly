@@ -1,28 +1,55 @@
 package student;
 
 /**
- * This class is a place holder which you will fully implement based on the javadoc
+ * This class is a place holder which you will fully implement based on the javadoc.
  * 
  * https://cs5004-khoury-lionelle.github.io/hello_world/student/package-summary.html
  * 
  */
 public class Greeting {
 
+    /** int value of localityID*/
     private int localityID;
+    /** holds the localityName*/
     private String localityName;
+    /** holds the asciiGreeting*/
     private String asciiGreeting;
+    /** holds the unicodeGreeting*/
     private String unicodeGreeting;
+    /** holds the formatStr*/
     private String formatStr;
 
+    /**
+     * This is a constructor for the Greeting class.
+     * @param localityID the locality ID of the person to greet
+     * @param localityName the localityName of the person to greet
+     */
     public Greeting(int localityID, String localityName) {
-        this(localityID, localityName, "Hello", "Hello", "%s, %%s!");
+        this(localityID, localityName, "Hello",
+                "Hello", "%s, %%s!");
     }
 
+    /**
+     * This is a constructor for the Greeting class.
+     * @param localityID the locality ID of the person to greet
+     * @param localityName the localityName of the person to greet
+     * @param greeting the greeting for the person
+     */
     public Greeting(int localityID, String localityName, String greeting) {
-        this(localityID, localityName, greeting, greeting, "%s, %%s!");
+        this(localityID, localityName,
+                greeting, greeting, "%s, %%s!");
     }
 
-    public Greeting(int localityID, String localityName, String asciiGreeting, String unicodeGreeting, String formatStr) {
+    /**
+     * This is a constructor for the Greeting class.
+     * @param localityID the locality ID of the person to greet
+     * @param localityName the localityName of the person to greet
+     * @param asciiGreeting the asciiGreeting for the person
+     * @param unicodeGreeting the unicodeGreeting for the person
+     * @param formatStr the formatStr for the person
+     */
+    public Greeting(int localityID, String localityName, String asciiGreeting,
+                    String unicodeGreeting, String formatStr) {
         this.localityID = localityID;
         this.localityName = localityName;
         this.asciiGreeting = asciiGreeting;
