@@ -6,19 +6,19 @@ package student;
  */
 public class Greeting {
 
-    /** int value of localityID*/
+    /** int value of localityID.*/
     private int localityID;
 
-    /** holds the localityName*/
+    /** holds the localityName.*/
     private String localityName;
 
-    /** holds the asciiGreeting*/
+    /** holds the asciiGreeting.*/
     private String asciiGreeting;
 
-    /** holds the unicodeGreeting*/
+    /** holds the unicodeGreeting.*/
     private String unicodeGreeting;
 
-    /** holds the formatStr*/
+    /** holds the formatStr.*/
     private String formatStr;
 
     /**
