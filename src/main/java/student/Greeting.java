@@ -2,20 +2,22 @@ package student;
 
 /**
  * This class is a place holder which you will fully implement based on the javadoc.
- * 
  * https://cs5004-khoury-lionelle.github.io/hello_world/student/package-summary.html
- * 
  */
 public class Greeting {
 
     /** int value of localityID*/
     private int localityID;
+
     /** holds the localityName*/
     private String localityName;
+
     /** holds the asciiGreeting*/
     private String asciiGreeting;
+
     /** holds the unicodeGreeting*/
     private String unicodeGreeting;
+
     /** holds the formatStr*/
     private String formatStr;
 
@@ -89,7 +91,8 @@ public class Greeting {
         return unicodeGreeting;
     }
 
-    /** Gets the unicode format string. This string will have a %s, so that the name can be inserted into the greeting in the correct location.
+    /** Gets the unicode format string.
+     * This string will have a %s,so that the name can be inserted into the greeting in the correct location.
      * @return the format string with the greeting inserted into the format
      */
     public String getFormatStr() {
@@ -97,7 +100,8 @@ public class Greeting {
     }
 
     /**
-     * Returns the format string with the greeting inserted into the format. This string will have a %s, so that the name can be inserted into the greeting in the correct location.
+     * Returns the format string with the greeting inserted into the format.
+     * This string will have a %s, so that the name can be inserted into the greeting in the correct location.
      * @param asciiOnly if true, only ascii characters will be used
      * @return the format string with the greeting inserted into the format
      */
