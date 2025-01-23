@@ -14,11 +14,11 @@ import java.util.List; // this imports the List class from the java.util package
 public final class ConsoleView {
 
     // Scanner can read input from clients,strings, or files.
-    // However, when setting the scanner to System.in, you only want to do it once in the
+    // However, when setting the scanner tASo System.in, you only want to do it once in the
     // application to
     // prevent conflicts.
     /** scanner pointing towards System.in. */
-    private static final Scanner SCANNER = new Scanner(System); // System.in is a standard input
+    private static final Scanner SCANNER = new Scanner(System.in); // System.in is a standard input
                                                                 // stream, it is used to read
                                                                 // data from the keyboard.
     /** Stores the locality lists from Greeter to prevent additional copies. */

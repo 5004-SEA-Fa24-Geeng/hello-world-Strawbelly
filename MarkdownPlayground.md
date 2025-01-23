@@ -21,3 +21,7 @@ Mermaid is a markdown language that allows you to create diagrams. You can find 
 
 <!-- start your playground code under this dashed line -->
 ----
+* `*** ***` This element is used for making text bold and italic.
+* `#` This element is used for creating a heading level 1.
+* `-` This element is used for creating an unordered list. We can also use `*` or `+`.
+* `<ins> </ins>` This element is used for underlining text.
